@@ -29,4 +29,17 @@ class LoginPage extends ProjectPage
   );
 
   protected $identifiers = array('header' => 'Test for typing values into form text fields.');
+
+  /**
+  * This method will push submit button and return the HomePage
+  *
+  * @access public
+  *
+  * @return HomePage
+  */
+  public function submit()
+  {
+    $this->submit->click();
+    return new HomePage($this->testCase);
+  }
 }

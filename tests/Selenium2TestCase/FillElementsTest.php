@@ -21,17 +21,13 @@ class FillElementsTest extends ApplicationBaseTestCase
   * @access public
   *
   * @return void
-   *
-   * @group ongoing
   */
   public function testSucessLoginLogout()
   {
     $loginPage = new LoginPage($this);
 
-    $loginPage->username('Hugo')
-             ->password('password')
-             ->submit();
-
-    $homePage = new HomePage($this);
+    $loginPage->username('User')
+              ->password('Password')
+              ->submit();
   }
 }
