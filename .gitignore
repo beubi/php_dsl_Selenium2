@@ -1,7 +1,28 @@
-nbproject/*
-build/*
+# this ignores were getted from
+# https://github.com/github/gitignore/tree/master/Global
+
+# eclipse
+.settings/*
+.buildpath
+.project
+.metadata
+.externalToolBuilders/
+
+# phpstorm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# SublimeText project files
+*.sublime-workspace
+
+# netbeans
+nbproject/
+build/
 nbbuild/
 dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+

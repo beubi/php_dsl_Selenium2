@@ -10,7 +10,7 @@
  *
  * @property Selenium2_Element $header   get header element
  */
-class HomePage extends ProjectPage
+class HomePage extends AbstractPage
 {
   protected $url = 'test_type_page2';
 

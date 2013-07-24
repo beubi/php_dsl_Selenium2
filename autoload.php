@@ -7,17 +7,26 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'applicationbasetestcase' => '/tests/ApplicationBaseTestCase.php',
-                'basetestcase' => '/tests/BaseTestCase.php',
-                'container' => '/dsl/Container.php',
+                'abstractcontainer' => '/dsl_selenium2/dsl/AbstractContainer.php',
+                'abstractmenu' => '/dsl_selenium2/dsl/AbstractMenu.php',
+                'abstractpage' => '/dsl_selenium2/dsl/AbstractPage.php',
+                'abstracttab' => '/dsl_selenium2/dsl/AbstractTab.php',
+                'abstractwindowform' => '/dsl_selenium2/dsl/AbstractWindowForm.php',
+                'applicationbasetestcase' => '/dsl_selenium2/selenium2/ApplicationBaseTestCase.php',
+                'basetestcase' => '/dsl_selenium2/selenium2/BaseTestCase.php',
                 'fillelementstest' => '/tests/Selenium2TestCase/FillElementsTest.php',
                 'homepage' => '/tests/Pages/HomePage.php',
                 'loginpage' => '/tests/Pages/LoginPage.php',
-                'menu' => '/dsl/Menu.php',
-                'page' => '/dsl/Page.php',
-                'projectpage' => '/ProjectPage.php',
-                'tab' => '/dsl/Tab.php',
-                'windowform' => '/dsl/WindowForm.php'
+                'projectbase' => '/tests/ProjectBase.php',
+                'selenium2_element' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2_element_select' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2_elementcriteria' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2_session_cookie' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2_session_timeouts' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2_window' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'selenium2testcase' => '/dsl_selenium2/selenium2/Selenium2TestCase.php',
+                'tableelement' => '/dsl_selenium2/dsl/TableElement.php',
+                'testshelper' => '/dsl_selenium2/TestsHelper.php'
             );
         }
         $cn = strtolower($class);

@@ -1,6 +1,6 @@
 <?php
 
-include_once '/var/www/php_dsl_Selenium2/autoload.php';
+include_once '/home/hugofonseca/php_dsl_Selenium2/autoload.php';
 
 /**
  * Test class for Session
@@ -12,7 +12,7 @@ include_once '/var/www/php_dsl_Selenium2/autoload.php';
  * @author     Ubiprism Lda. / be.ubi <contact@beubi.com>
  *
  */
-class FillElementsTest extends ApplicationBaseTestCase
+class FillElementsTest extends ProjectBase
 {
   /**
   * This method will test if when the login is sucessfull the user is

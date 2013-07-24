@@ -15,7 +15,7 @@
  * @property Selenium2_Element $submit   get submit element
  * @property Selenium2_Element $header   get header element
  */
-class LoginPage extends ProjectPage
+class LoginPage extends AbstractPage
 {
   protected $url = 'test_type_page1';
 

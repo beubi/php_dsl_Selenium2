@@ -2,7 +2,7 @@ This is a work in progress of a DSL Using Selenium2 and phpunit_Selenium
 
 To see details of how to use this, you may check out our tests.
 
-<h2>Explanation (?)</h2>
+Explanation (?)
 
 Our application has elements. This elements are: labels, tables, headers, inputs, select, textareas...
 
